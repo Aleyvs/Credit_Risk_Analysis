@@ -1,4 +1,4 @@
-### Credit_Risk_Analysis
+# Credit_Risk_Analysis
 
 ## Analysis Overview
 
@@ -19,39 +19,41 @@ By using Machine Learning to resample the dataset using Python libraries: scikit
 
 From the original dataset of loan applications in Q1 of 2019. We used the "loan status" to determine whether the application was considered "low" or "high" risk. Applications that had "current" as the "loan status" were classified as "low risk" and the remaining, including: 'Late (31-120 days)', 'Late (16-30 days)', 'Default', and 'In Grace Period' were classified as "high risk". This reduced the dataset to 68,817 total applications with 68,470 classified as "low risk" and 347 classified as "high risk".
 
-# Use Resampling Models to Predict Credit Risk
+### Use Resampling Models to Predict Credit Risk
 
-# Using RandomOverSampler Model
+### Using RandomOverSampler Model
 
 - Balanced Accuracy score of 63.8%.
 - "High Risk" precision rate of only 1% with the recall at 61% giving this model an F1 score of 2%. 
 - "Low Risk" precision rate of 100% and recall of 61%.
 
-# Using SMOTE Model
+### Using SMOTE Model
 
 - Balanced Accuracy score of 65.8%.
 - "High Risk" precision rate of only 1% with the recall at 62% giving this model an F1 score of 2%. 
 - "Low Risk" precision rate of 100% and recall of 69%.
 
-# Using Cluster Centroids Model for Undersampling
+### Using Cluster Centroids Model for Undersampling
 
 - Balanced Accuracy score of 65.9%.
 - "High Risk" precision rate of only 1% with the recall at 69% giving this model an F1 score of 1%. 
 - "Low Risk" precision rate of 99% and recall of 40%.
 
-# Using a Combination (Over and Under) Sampling
+### Using a Combination (Over and Under) Sampling
 
 - Balanced Accuracy score of 54.5%.
 - "High Risk" precision rate of only 1% with the recall at 72% giving this model an F1 score of 2%. 
 - "Low Risk" precision rate of 99% and recall of 69.57%.
 
-# Using Balanced Random Forest Classifier Model
+### Using Ensemble Clasifiers
+
+### Using Balanced Random Forest Classifier Model
 
 - Balanced Acuracy score of 78.85%
 - "High Risk" precision rate of 9% with the recall at 92% giving this model an F1 score of 16%. 
 - "Low Risk" precision rate of 100% and recall of 94%.
 
-# Using Easy Ensemble Clasifier Model
+### Using Easy Ensemble Clasifier Model
 
 - Balanced Acuracy score of 93.16%
 - "High Risk" precision rate of 9% with the recall at 92% giving this model an F1 score of 16%. 
